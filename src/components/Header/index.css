@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid rgb(52, 29, 46);
+  border-radius: 11px;
+}
+.nav-container {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 11px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  margin-left: 11px;
+}
+
+.link-items {
+  color: black;
+  margin-left: 8px;
+}
+.logo-image {
+  height: 59px;
+  width: 59px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+}

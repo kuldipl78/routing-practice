@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.containt-container {
+  margin-top: 29px;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.about-img {
+  height: 150px;
+  width: 150px;
+  margin: 11px;
+}
+.heading {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(56, 35, 56);
+  margin: 11px;
+}
+.para {
+  color: rgb(70, 69, 69);
+}
